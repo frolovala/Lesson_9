@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    background-color: #1A1A1A; 
+    background-color: #f3efed; 
     padding-top: 36px;
     padding-bottom: 260px;
 }
@@ -29,10 +29,10 @@ body {
 
 
 .logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    background-color: #c24a4a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,10 +52,10 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #D1D1D1;
+    color: #1A1A1A;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 
@@ -69,7 +69,7 @@ body {
     display: inLine-block;
     border-Left: 1px solid • #8C8C8C;
     padding: 8px 0 8px 20px;
-    color: #8C8C8C;
+    color: #1A1A1A;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -80,14 +80,14 @@ body {
 .header-title-text {
     font-size: 90px;
     font-weight: bold;
-    color:#fff;
+    color:#1A1A1A;
     max-width: 620px;
     line-height: 1;
 }
 
 
 .join {
-    background-color:#FEBE02;
+    background-color:#c24a4a;
     position: absolute;
     right: 0; 
     bottom: 0;
@@ -116,13 +116,15 @@ body {
 
 
 .card-info-img {
-    display: flex;
+    width: 400px;
+    height: auto;
+    display: flex; 
 }
 
 .info-title {
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #1A1A1A;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
@@ -130,7 +132,7 @@ body {
 
 .info-subtitle {
     font-size: 13px;
-    color: #8C8C8C;
+    color: #1A1A1A;
     font-weight: bold;
     letter-spacing: 1.5px;
     display: block;
@@ -138,9 +140,9 @@ body {
 
 .about-subtitle-text {
     display: inline-block;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #1A1A1A;
     padding: 8px 0 8px 20px;
-    color: #fff;
+    color: #1A1A1A;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -149,16 +151,24 @@ body {
 }
 
 .about-desc {
-    color: #D1D1D1;
+    color: #1A1A1A;
     max-width: 240px;
     font-size: 14px;
     line-height: 1.8;
 }
 
+
 .audio-block {
-    background-color: #242424;
+    background-color: #1A1A1A;
     display: flex;
     margin-top: 61px;
+}
+
+
+
+.language {
+    width: 260px;
+    height: auto;
 }
 
 .audio-container {
@@ -172,7 +182,7 @@ body {
 
 .play-btn {
     display: flex;
-    background-color: blue;
+    background-color: #c24a4a;
     width: 40px;
     height: 40px;
     align-items: center;
@@ -185,7 +195,7 @@ body {
 .about-title {
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #1A1A1A;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
@@ -194,7 +204,7 @@ body {
 
 .about-subtitle {
     font-size: 13px;
-    color: #8C8C8C;
+    color: #1A1A1A;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -223,8 +233,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
-    background-color: blue;
-    color: white;
+    background-color: #c24a4a;
+    color: black;
     cursor: pointer;
 }
 
@@ -235,7 +245,7 @@ body {
 }
 
 .time {
-    color: #fff;
+    color: #1A1A1A;
     position: absolute;
     top: 10px;
     right: 0;
@@ -274,7 +284,7 @@ body {
     padding-left: 20px;
 }
 
-.img-card-1 {background-image: url(/img/card-1.png);}
+.img-card-1 {background-image: url(img/people-watching-movie-home_23-2148562540.avif);}
 
 .btn-time {
     background-color: #fff;
@@ -302,7 +312,7 @@ body {
 .course-category {
     font-size: 13px;
     letter-spacing: 2px;
-    color: #bababa;
+    color: #fff;
     font-weight: 400;
     margin: 18px 0;
 }
@@ -326,10 +336,10 @@ body {
 }
 
 
-.img-card-2 {background-image: url(/img/card-2.png);}
+.img-card-2 {background-image: url(img/133541655_10234100_cae30298c6.avif);}
 
 .footer {
-    background-color: #f5f6f8;
+    background-color: #f3efed;
     padding: 60px 0;
 }
 
